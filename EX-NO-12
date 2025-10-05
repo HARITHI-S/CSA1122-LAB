@@ -1,0 +1,102 @@
+FOREIGNTRADING SYSTEM
+
+AIM:
+To draw the diagrams[Usecase,Activity,Sequence,Collaboration,Class,Statechart,Component, Deployment, package] for foreign trading system  
+
+SOFTWAREREQUIREMENTSSPECIFICATION
+
+SL.NO
+SOFTWAREREQUIREMENTSSPECIFICATION
+1.0
+HardwareRequirements
+1.1
+SoftwareRequirements
+1.2
+Problem Analysis and ProjectPlan
+1.3
+Projectdescription
+1.4
+Reference
+
+1.0 ​HARDWAREREQUIREMENTS:
+Intel Pentium ProcessorI3/I5
+1.1 ​SOFTWAREREQUIREMENTS:
+Rationalrose/ArgoUML
+1.2 ​PROJECTANALYSISANDPROJECTPLANNING
+The initial requirements to develop the project about the mechanism of theForeign Trading System is bought from the trader. The requirements are analyzed and refined which enables the analyst (administrator) to efficiently use the Foreign Trading System. The complete project analysis is developed after the whole project analysis explainingaboutthescopeandthe project statement is prepared.
+1.3 ​PROJECTDESCRIPTION:
+This software is designed to maintain the details about the trading system thatexists between the foreign countries. These details are hold by the trading management system. The details to the system are provided by the customer and the supplier.
+ 1.4 ​REFERENCES:
+IEEE Software Requirement Specificationformat.
+
+USE CASEDIAGRAM:
+This diagram will contain the actors, use cases which are givenbelow
+Actors:Customer,Supplier,Customofficer
+Usecase:Orderofproduct,Quantity,Specifytheamount
+
+CLASSDIAGRAM:
+This diagram consists of the following classes, attributes and theiroperations.
+
+ACTIVITYDIAGRAM:
+This diagram will have the activities as Startpoint,Endpoint,Decision boxes as given below:
+Activities: Order of the product, Specify amount, Payment, Moneytransfer
+Decision box:Check foravailability
+
+SEQUENCEDIAGRAM:
+This diagram consists of the objects, messages and returnmessages.
+Object:Customer,Supplier,Tradingmanagementsystem
+
+COLLABORATIONDIAGRAM:
+This diagram contains the objects and actors. This will be obtained bythecompletionof the sequence diagram and pressing the F5 key.
+
+STATECHARTDIAGRAM:
+It is a technique to describe thebehaviorofthesystem.Itdescribesallthepossiblestates that a particular object gets into the object oriented technique. State diagram are drawn for a single class to show to the lifetime behaviour of a single objects
+
+COMPONENTDIAGRAM:
+Thecomponent diagram is represented by figure dependency and it is a graph ofdesign of figure dependency. The component diagram's main purpose is to show the structural relationships between the components of a systems. It is represented by boxed figure. Dependencies are represented by communication association.
+
+DEPLOYMENTDIAGRAM:
+A deployment diagram in the unified modeling language serves to model thephysical deployment of artifacts on deployment targets. Deployment diagrams show "the allocation of artifacts to nodes according to the Deployments defined between them. It is represented by 3- dimentional box. Dependencies are represented by communication association
+
+PACKAGEDIAGRAM:
+A package diagram in unified modeling language that depicts the dependencies between the packages that make up a model. A Package Diagram (PD) shows a grouping of elements in the OO model, and is a Cradle extension to UML. PDs can be used toshowgroupsof classes in ClassDiagrams(CDs),groupsofcomponentsorprocessesinComponentDiagrams (CPDs), or groups of processors in Deployment Diagrams (DPDs).
+Therearethreetypesoflayer.Theyare
+    • User interfacelayer
+    • Domainlayer
+    • Technicalserviceslayer
+
+PROGRAM CODING:
+TRADING MANAGEMENTSYSTEM:
+public class trading managementsystem
+{
+publicintegerverifyproduct; public integer amount;
+public voidtransport()
+{
+}
+public void moneytransfer()
+{
+}
+}
+CUSTOMER:
+public class customer
+{
+Public integer order product; Public integer amount;
+Public voidpayment()
+{
+}
+Public voiddelivery()
+{
+}
+}
+SUPPLIER:
+Public classsupplier
+{
+Public integersupply;
+Public void availableproduct()
+{
+}
+}
+
+RESULT:
+Thus the diagrams [Usecase, Activity, Sequence, Collaboration, Class,Statechart, Component, Deployment, package ] for foreign trading system has beendesigned,executedand output is verified.
+
