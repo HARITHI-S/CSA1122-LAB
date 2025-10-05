@@ -1,0 +1,101 @@
+RECRUITMENT SYSTEM
+
+AIM:
+To draw the diagram[Usecase,Activity,Sequence,Collaboration,Class,StateChart, Component and Deployment, package] for recruitmentsystem.
+
+SOFTWARE REQUIREMENTS SPECIFICATION:
+
+SL.NO
+SOFTWARE REQUIREMENTS SPECIFICATION
+1.0
+Hardware Requirements
+1.1
+Software Requirements
+1.2
+Problem Analysis and ProjectPlan
+1.3
+Project description
+1.4
+Reference
+
+ 1.0 ​HARDWAREREQUIREMENTS:
+Intel Pentium ProcessorI3/I5
+ 1.1 ​SOFTWAREREQUIREMENTS:
+Rationalrose/ArgoUML
+1.3 ​PROJECTDESCRIPTION:
+This system is designed to recruit the particular job to the person in a company .Itwas controlled by the central management system to manage the details of the particular candidate that one has to be recruited for a company.
+1.4 ​REFERENCES:
+IEEE Software Requirement Specificationformat.
+
+USE CASEDIAGRAM:
+This diagram will contain the actors, use cases which are givenbelow
+Actors: Applicant, HR, Central managementsystem.
+Usecase:Aptitude,Groupdiscussion,Technicalskills,Personalspecification, Short list, Result
+
+CLASSDIAGRAM:
+This diagram consists of the following classes, attributes and theiroperations.
+
+ACTIVITYDIAGRAM:
+This diagram will have the activities as Startpoint,Endpoint,Decision boxes as given below:
+Activities:Aptitude,Group discussion,Technical skills,HR
+Decisionbox:Verification of the qualities
+
+SEQUENCEDIAGRAM:
+This diagram consists of the objects, messages and returnmessages.
+Object:Candidate, HR, Centralsystem
+
+COLLABORATIONDIAGRAM:
+This diagram contains the objects and actors. This will be obtained bythecompletionof the sequence diagram and pressing the F5 key.
+
+STATECHARTDIAGRAM:
+It is a technique to describe thebehaviorofthesystem.Itdescribesallthepossiblestates that a particular object gets into the object oriented technique. State diagram are drawn for a single class to show to the lifetime behaviour of a single objects
+
+COMPONENTDIAGRAM:
+The component diagram is represented by figure dependency and it is a graph ofdesign of figure dependency. The component diagram's main purpose is to show the structural relationships between the components of a systems. It is represented by boxed figure. Dependencies are represented by communication association.
+
+DEPLOYMENTDIAGRAM:
+A deployment diagram in the unified modeling language serves to model thephysical deployment of artifacts on deployment targets. Deployment diagrams show "the allocation of artifacts to nodes according to the Deployments defined between them. It is represented by 3- dimentional box. Dependencies are represented by communication association
+
+PACKAGEDIAGRAM:
+A package diagram in unified modeling language that depicts the dependencies between the packages that make up a model. A Package Diagram (PD) shows a grouping of elements in the OO model, and is a Cradle extension to UML. PDs can be used toshowgroupsof classes in ClassDiagrams(CDs),groupsofcomponentsorprocessesinComponentDiagrams (CPDs), or groups of processors in Deployment Diagrams (DPDs).
+There are three types of layer.They are
+    • User interfacelayer
+    • Domainlayer
+    • Technicalserviceslayer
+
+PROGRAM CODING:
+CENTRAL SYSTEM:
+Public class centralsystem
+{
+Public integerstore;
+Public integerupdate;
+Public void central managementsystem()
+{
+}
+}
+HR:
+Public classHR
+{
+Publicintegerverification; Public integer resume;
+Public voidHR()
+{
+}
+}
+CANDIDATE:
+Public classcandidate
+{
+Public integername;
+Public integeroperation;
+Publicintegerqualification; Public void verify()
+{
+}
+Public voidcandidate()
+{
+}
+}
+
+RESULT:
+To draw the diagram [Use case, Activity, Sequence, Collaboration, Class, StateChart, Component and Deployment, package] for recruitment system has been designed and output isverified.
+
+
+
